@@ -2,7 +2,7 @@ import { deepEqual } from "node:assert/strict";
 import { test } from "node:test";
 
 function greet(name: string) {
-  return { message: "Welcome, Alek!" });
+  return { message: "Welcome, Alek!" };
 }
 
 test("should greet person", () => {
